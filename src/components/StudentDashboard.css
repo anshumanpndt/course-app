@@ -1,0 +1,46 @@
+/* src/components/StudentDashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .enrolled-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .enrolled-course-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(50% - 10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin: 10px 0;
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    height: 100%;
+  }
+  
+  .complete-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .complete-button:hover {
+    background-color: #218838;
+  }
+  

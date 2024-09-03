@@ -1,0 +1,38 @@
+/* src/components/CourseList.css */
+
+.course-list-container {
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+  .course-link {
+    text-decoration: none;
+    color: inherit;
+    width: calc(33.333% - 10px);
+  }
+  
+  .course-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-item:hover {
+    background-color: #f0f0f0;
+  }
+  

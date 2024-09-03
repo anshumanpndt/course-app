@@ -1,0 +1,44 @@
+/* src/components/CourseDetails.css */
+
+.course-details-container {
+    padding: 20px;
+  }
+  
+  .back-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #333;
+  }
+  
+  .syllabus-section {
+    margin-top: 20px;
+  }
+  
+  .syllabus-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .syllabus-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .syllabus-content {
+    margin-top: 10px;
+    background-color: #eef;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
